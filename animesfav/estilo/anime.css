@@ -1,8 +1,12 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }
+
 body{
     background-color:rgba(0, 0, 0, 0.753); 
     color: white;
@@ -16,6 +20,7 @@ header> h1{
     padding-top: 15px;
     padding-bottom:20px ;
     font-size: 2.6em;
+    font-family: 'Bebas Neue' ,'sans-serif';
 }
 header> img {
     padding-bottom: 15px;
@@ -28,14 +33,68 @@ main {
     margin: auto;
     background-color: black;
     min-width: 320px;
-    max-width: 850px;
+    max-width: 900px;
+    word-spacing: 1px;
+    line-height: 1.3;
+}
+main >h1 {
+    font-family: 'Oswald',  'sans-serif';
+    padding-top: 10px;
+    padding-bottom: 18px;
 }
 main > img {
     width: 90%;
    
 }
+main>img.touch{
+    box-shadow: 1px 1px 2px yellow;
+}
+main>img.kazega{
+    box-shadow: 1px 1px 2px orange;
+}
+main>img.mob{
+    box-shadow: 1px 1px 2px aqua;
+}
+main>img.boxe{
+    box-shadow: 1px 1px 2px red;
+}
+main>img.one{
+    box-shadow: 1px 1px 2px blue;
+}
 main >p {
     text-align: justify;
     text-indent: 15px;
-    padding-right: 2px;
+    padding:5px;
+    font-family: 'Barlow', 'sans-serif';
+}
+p>a{
+    text-decoration: none;
+    color: red;
+}
+p>a:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: 1s;
+}
+p>a:active{
+    background-color: white;
+}
+div.video {
+    position: relative;
+    padding: 20px;
+    padding-bottom: 50%;
+}
+iframe{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    height: 90%;
+    width: 90%;
+}
+hr {
+    width: 55%;
+    margin:  auto;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    border: 1px solid gray;
 }
