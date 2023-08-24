@@ -98,3 +98,27 @@ hr {
     margin-bottom: 12px;
     border: 1px solid gray;
 }
+footer {
+    background-color: rgba(0, 0, 0, 0.253);
+    text-align: center;
+    padding: 20px;
+}
+footer > img{
+    padding: 30px;
+    margin: 10px;
+}
+footer > p {
+    font-size: 2em;
+    padding-top: 10px;
+}
+footer > a {
+    text-decoration: none;
+    padding: 16px;
+    padding-bottom: 8px;
+}
+footer >a:hover{
+    background-color: red;
+}
+footer >a:active{
+    background-color: blue;
+}
