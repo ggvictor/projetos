@@ -111,11 +111,15 @@ footer > img{
 footer > p {
     font-size: 2em;
     padding-top: 10px;
+    text-align: center;
+    margin: auto;
 }
 footer > a {
     text-decoration: none;
     padding: 16px;
     padding-bottom: 8px;
+    text-align: center;
+    margin: auto;
 }
 footer >a:hover{
     background-color: red;
