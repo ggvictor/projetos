@@ -80,6 +80,9 @@ p>a:hover{
 p>a:active{
     background-color: white;
 }
+main > div {
+    background-color: black;
+}
 div.video {
     position: relative;
     padding: 20px;
