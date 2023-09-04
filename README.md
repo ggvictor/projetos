@@ -5,4 +5,4 @@
 
 <a href="https://ggvictor.github.io/projetos/animesfav/anime.html">projeto de site dos meu animes favoritos</a>
 
-<a href="https://ggvictor.github.io/projetos/animesfav/cordel.html">projeto de site de poema</a>
+<a href="https://ggvictor.github.io/projetos/cordel/cordel.html">projeto de site de poema</a>
