@@ -41,17 +41,24 @@ section> p {
    word-spacing: 3px;
    padding-top: 60px;
    padding-bottom: 30px;
+   padding-left: 13px;
    font-family: 'Sriracha', 'cursive';
    
 }
-.image {
+section.image > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+#img {
     background: black url(imagens/background001.jpg) no-repeat fixed;
     background-position: center right;
     background-size: cover;
     
     color: white;
 }
-.image2 {
+#img02 {
     background: black url(imagens/background002.jpg) no-repeat fixed;
     background-position: center center;
     background-size: cover;
