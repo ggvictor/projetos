@@ -9,7 +9,7 @@
 }
 body{
     height: 100vh;
-    background-image: linear-gradient(to top, #0C1C5C , #617BE1);
+    background-image: linear-gradient(to right, #0C1C5C , #617BE1);
 }
 .container{
     overflow: hidden;
@@ -32,10 +32,10 @@ body{
 }
 nav{
     display: flex;
-    gap: 10px;
+    gap: 60px;
 }
 nav>a {
-    padding: 0 60px 0 60px; 
+    
     color: black;
     font-weight: bolder;
     font-size: 1.1em;
