@@ -35,13 +35,17 @@ nav{
     gap: 60px;
 }
 nav>a {
-    
+    text-overflow: ellipsis;
     color: black;
     font-weight: bolder;
     font-size: 1.1em;
     font-family: 'Roboto Condensed', 'sans-serif';
 }
 @media (max-width: 768px) {
+    nav {
+        width: 100%;
+        padding: 0 10px;
+    }
     nav > a {
         padding: 0 10px;
     }
